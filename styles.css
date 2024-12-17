@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #972424;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    font-size: 100px; /* "V" hərfi üçün ölçü */
+}
+
+.v-shape {
+    color: rgb(164, 125, 125); /* Qara "V" hərfi */
+    position: relative;
+}
+
+.star {
+    color: white; /* Ağ ulduz */
+    font-size: 50px; /* Ulduzun ölçüsü */
+    position: absolute;
+    bottom: -20px; /* Ulduzun "V"nin altına düşməsi */
+    left: 30px; /* Ulduzun "V"nin altında düz yerləşməsi */
+}
+
+section {
+    padding: 20px;
+}
+
+
